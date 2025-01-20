@@ -67,6 +67,12 @@ git reset filename
 git commit -m "Your commit message"
 ```
 
+- **push your commit to branch:**
+```bash
+git branch -M main 
+git push -u origin main
+```
+
 - **View the commit history**:
 ```bash
 git log

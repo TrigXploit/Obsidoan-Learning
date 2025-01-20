@@ -37,10 +37,6 @@ nmap -Pn -sV --script ssl-enum-ciphers -p 443 <HOST>
 
 
 
-
-
-
-
 Kl 16 begyndte vi på "nerd wednesday" som er en dag hvor ansatte & jeg kan sidde sammen efter arbejde og lave CTF'er eller præsentere nye teknologier eller på andre måder forbedre hinanden.
 
 Jeg sad med Peter og lavede på et room fra HackTheBox og senere et andet rum fra TryHackMe.
