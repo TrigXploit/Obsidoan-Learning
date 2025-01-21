@@ -16,6 +16,10 @@ git config --list
 git config --global core.editor "code --wait"
 ```
 
+- **Add ssh key**
+```bash
+`ssh-keygen -t rsa -b 4096 -C "your-new-email@example.com"
+```
 
 # Working with Repositories
 
