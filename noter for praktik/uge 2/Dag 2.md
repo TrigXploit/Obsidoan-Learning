@@ -1,2 +1,5 @@
-kør juicebox & tryhackme
+kør juicebox & tryhackme og foreberedelse til eksamen
+
+
+
 
