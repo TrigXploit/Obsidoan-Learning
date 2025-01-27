@@ -16,6 +16,10 @@ git config --list
 git config --global core.editor "code --wait"
 ```
 
+- **Add ssh key**
+```bash
+`ssh-keygen -t rsa -b 4096 -C "your-new-email@example.com"
+```
 
 # Working with Repositories
 
@@ -65,6 +69,12 @@ git reset filename
 - **Commit your changes with a message**:
 ```bash
 git commit -m "Your commit message"
+```
+
+- **push your commit to branch:**
+```bash
+git branch -M main 
+git push -u origin main
 ```
 
 - **View the commit history**:

@@ -1,0 +1,3 @@
+Sårbarhederne i TLS 1.0 og 1.1 er
+
+måden man udnytter dem på er ...
