@@ -66,3 +66,11 @@ TXT Records: Need explanation
 6. a
 7. 
 
+A root DNS server is split into different TLD (.com, .edu)
+
+TTL
+
+
+
+
+![[Pasted image 20250126202124.png]]
