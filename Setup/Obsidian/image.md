@@ -1,0 +1,35 @@
+![[Pasted image 20250126155114.png]]
+
+## Styles:
+{
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-rosepine-light",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-blue",
+  "anuppuccin-theme-settings@@ctp-custom-green@@dark": "#924949",
+  "anuppuccin-theme-settings@@anp-button-metadata-toggle": true,
+  "anuppuccin-theme-settings@@anp-print": true,
+  "anuppuccin-theme-settings@@anp-header-color-toggle": true,
+  "anuppuccin-theme-settings@@anp-header-margin-toggle": true,
+  "anuppuccin-theme-settings@@anp-header-divider-color-toggle": true,
+  "anuppuccin-theme-settings@@anp-header-margin-value": 18,
+  "anuppuccin-theme-settings@@h1-size": 3,
+  "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-pink",
+  "anuppuccin-theme-settings@@anp-h1-divider": true,
+  "anuppuccin-theme-settings@@h2-size": 2.5,
+  "anuppuccin-theme-settings@@anp-h2-divider": true,
+  "anuppuccin-theme-settings@@h3-size": 2,
+  "anuppuccin-theme-settings@@anp-h3-color-custom": "anp-h3-yellow",
+  "anuppuccin-theme-settings@@anp-h3-divider": true,
+  "anuppuccin-theme-settings@@h4-size": 1.7,
+  "anuppuccin-theme-settings@@anp-h4-color-custom": "anp-h4-teal",
+  "anuppuccin-theme-settings@@anp-h4-divider": true,
+  "anuppuccin-theme-settings@@h5-size": 1.45,
+  "anuppuccin-theme-settings@@anp-h5-color-custom": "anp-h5-sky",
+  "anuppuccin-theme-settings@@h6-size": 1.2,
+  "anuppuccin-theme-settings@@anp-h6-color-custom": "anp-h6-blue",
+  "anuppuccin-theme-settings@@anp-decoration-toggle": true,
+  "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle",
+  "anuppuccin-theme-settings@@anp-simple-rainbow-title-toggle": true,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-collapse-icon-toggle": true,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-indentation-toggle": true
+}
