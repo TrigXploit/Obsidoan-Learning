@@ -1,4 +1,4 @@
-
+last update Herlev
 [[Information Gathering|Information Gathering (nslookup, shodan)]]
 
 [[Footprinting & Scanning]]
