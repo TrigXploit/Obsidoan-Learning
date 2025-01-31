@@ -1,5 +1,6 @@
 Reconnaissance also known as Information gathering 
 
+<<<<<<< HEAD
 The more information you can collect the more options during the actual pentest.
 
 ## Passive Information Gathering
@@ -23,6 +24,31 @@ The more information you can collect the more options during the actual pentest.
 ----
 
 ###
+=======
+## Passive recon
+#### Commands & url's
+**commands**
+`host <url>` returns IPv4, IPv6 and possibly Email 
+
+**urls**
+`<url>/robots.txt`
+`<url>/sitemap | /sitemaps`
+
+
+### 
+when trying to gather information silently host is a good way to obtain the 
+
+
+
+
+## Active
+
+
+
+
+## 
+
+>>>>>>> origin/main
 
 
 
