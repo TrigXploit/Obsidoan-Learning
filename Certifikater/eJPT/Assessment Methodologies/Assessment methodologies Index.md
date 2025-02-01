@@ -1,4 +1,4 @@
-last update Herlev
+last update hjemme
 [[Information Gathering|Information Gathering (nslookup, shodan)]]
 
 
