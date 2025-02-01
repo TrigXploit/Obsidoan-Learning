@@ -1,4 +1,15 @@
+#### download git
+https://git-scm.com/downloads
 
+once downloaded and installed
+create an account here
+https://github.com
+
+in the 4th step add the generated key here
+https://github.com/settings/keys give it the name of the pc your using 
+eg. laptop pc, school pc.
+
+![[git part setup]]
 ##### Basic Syntax
 
 | **Element**     | **Markdown Syntax**                                 |
