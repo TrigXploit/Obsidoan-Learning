@@ -13,6 +13,7 @@ The more information you can collect the more options during the actual pentest.
 -----
 
 ### Passive recon
+
 #### Commands & url's
 **commands**
 `host <url>` returns IPv4, IPv6 and possibly Email.
@@ -25,10 +26,16 @@ The more information you can collect the more options during the actual pentest.
 
 **urls**
 `<url>/robots.txt`
-- 
-`<url>/sitemap | /sitemaps`
+- stops webcrawalers from indexing sites, but can reveal directories.
+
+`<url>/sitemap /(s)`
+- Contains a structured list of all indexed pages
+
 https://httrack.com
+- 
+
 https://netcraft.com 
+
 
 ### 
 when trying to gather information silently host is a good way to obtain the 
