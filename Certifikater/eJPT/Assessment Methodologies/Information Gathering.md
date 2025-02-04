@@ -12,6 +12,26 @@ The more information you can collect the more options during the actual pentest.
 - subdomains (if any in scope)
 -----
 
+### Passive recon
+#### Commands & url's
+**commands**
+`host <url>` returns IPv4, IPv6 and possibly Email.
+`whatweb <url>` Identifies technologies used on a website.
+`whois <url>` Queries the WHOIS database for domain registration details.
+
+----
+**chatgpt**
+
+
+**urls**
+`<url>/robots.txt`
+- 
+`<url>/sitemap | /sitemaps`
+https://httrack.com
+https://netcraft.com 
+
+### 
+when trying to gather information silently host is a good way to obtain the 
 ###
 
 
@@ -23,20 +43,9 @@ The more information you can collect the more options during the actual pentest.
 - Enumerating information
 ----
 
-###
+### test
 =======
-## Passive recon
-#### Commands & url's
-**commands**
-`host <url>` returns IPv4, IPv6 and possibly Email 
 
-**urls**
-`<url>/robots.txt`
-`<url>/sitemap | /sitemaps`
-
-
-### 
-when trying to gather information silently host is a good way to obtain the 
 
 
 
