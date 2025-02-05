@@ -1,0 +1,1 @@
+vi begynte på rapporten og satte beviser ind men efter en hel dags arbejde fejlede en af makroerne og vi kunne ikke fikse det så vi endte med at udskyde rapporten til næste uge.
