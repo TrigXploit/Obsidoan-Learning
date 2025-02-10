@@ -23,5 +23,5 @@ men man kan ikke lave nogle CRUD handlinger
 
 
 
-**påbegyndt eJPT certificering** [[Index|eJPT Index]]
+**påbegyndt eJPT certificering** [[Certifikater/eJPT/Index|eJPT Index]]
 
