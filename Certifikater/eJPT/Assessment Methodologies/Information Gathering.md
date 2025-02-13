@@ -33,10 +33,21 @@ https://netcraft.com
 The video shows the website for passive scanning https://hackersploit.org
 along with some of ways to get basic information on a target
 
-f.eks. commands host command ` host Ip-Address || url-address`  
+**command**
+He talks about the command  ` host Ip-Address || url-address`  
+which gives a bit of basic info about the website.
 *Note:* if there are more then 2 addresses the address is probably using a [[Proxy web servers|proxy server]]
 
-another is the 
+another command is the `Whatweb Ip-Address || url-address` 
+This will try to tells us what technologies were used to create the website
+*Note* The info can be missing or wrong.
+
+**search engine tools**
+Another is the `robots.txt` url where you list sites that a search engines Webcrawlers from visiting those sites.
+another url is the `sitemap(s).xml` where you can see the different indexed pages.
+
+
+**Download the website**
 
 ### Vid 2 - WhoIs Enumeration
 when trying to gather information silently host is a good way to obtain the 
