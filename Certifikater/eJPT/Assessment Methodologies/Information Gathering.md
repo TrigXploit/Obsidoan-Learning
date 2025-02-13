@@ -30,9 +30,13 @@ https://httrack.com
 https://netcraft.com 
 
 ### Vid 1 - Website Recon & Footprinting 
+The video shows the website for passive scanning https://hackersploit.org
+along with some of ways to get basic information on a target
 
+f.eks. commands host command ` host Ip-Address || url-address`  
+*Note:* if there are more then 2 addresses the address is probably using a [[Proxy web servers|proxy server]]
 
-
+another is the 
 
 ### Vid 2 - WhoIs Enumeration
 when trying to gather information silently host is a good way to obtain the 
