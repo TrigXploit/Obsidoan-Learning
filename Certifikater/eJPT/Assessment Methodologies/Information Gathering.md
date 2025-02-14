@@ -1,6 +1,5 @@
 Reconnaissance also known as Information gathering 
 
-<<<<<<< HEAD
 The more information you can collect the more options during the actual pentest.
 
 # Passive Information Gathering
@@ -58,7 +57,13 @@ sudo apt-get install webhttrack
  It will open a web-instance on port 8080, where you easily input everything.
  ***NOTE: the download may fail if the server is using a proxy or other means of defense***
 ### Vid 2 - WhoIs Enumeration
-when trying to gather information silently host is a good way to obtain the 
+In this lessen we go over some tools that show us who and how a domain was set up.
+we also start using https://zonetransfer.me as a target.
+
+
+**command**
+`whois ip-address || URL-address`
+This will show a lot of data about the
 ### Vid 3 - Website Footprinting with Netcraft
 ### Vid 4 - DNS Recon
 ### Vid 5 - WAF With Wafw00f
