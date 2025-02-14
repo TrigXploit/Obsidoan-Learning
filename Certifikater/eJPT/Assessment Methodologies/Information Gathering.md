@@ -56,15 +56,29 @@ sudo apt-get install webhttrack
 *Note* open it via. the search bar (top left)
  It will open a web-instance on port 8080, where you easily input everything.
  ***NOTE: the download may fail if the server is using a proxy or other means of defense***
-### Vid 2 - WhoIs Enumeration
+###  Vid 2 - WhoIs Enumeration
 In this lessen we go over some tools that show us who and how a domain was set up.
 we also start using https://zonetransfer.me as a target.
 
-
 **command**
 `whois ip-address || URL-address`
-This will show a lot of data about the
+This will show a lot of data about the website like
+- creation, update and expiration date of the cert
+- domain owner information like Name, Email or physical Location        (may be redacted if DNS-Sec is enabled )
+- Name Server
+
+**websites**
+The Website http://who.is can also be used to use the whois command with a nice formatting through a website.
+*Note:* information så som location kan være forkert.
+*Note:* the Host command may give more information if the website is using a proxy server.
+
 ### Vid 3 - Website Footprinting with Netcraft
+Netcraft is nice to use since collects all of the: whois, TLS cert, web technologies and name servers
+
+to perform a netcraft scan go to their site and scroll down:
+![[Information Gathering Vid 3 Netcraft use.png|700]]
+
+Timestamp 2:26
 ### Vid 4 - DNS Recon
 ### Vid 5 - WAF With Wafw00f
 
